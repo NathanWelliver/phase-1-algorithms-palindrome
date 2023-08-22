@@ -18,4 +18,10 @@ describe("isPalindrome", () => {
   it("returns false for 'ab'", () => {
     expect(isPalindrome("ab")).to.be.false;
   });
+  it("returns true for 'civic'", () => {
+    expect(isPalindrome("civic")).to.be.true;
+  });
+  it("returns false for 'weeping willow'", () => {
+    chai.expect(isPalindrome("weeping willow")).to.be.false;
+  });
 });
